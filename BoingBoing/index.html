@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BoingBoing</title>
+    <meta name="description" content="Lycoris Recoil,リコリス・リコイル,莉可丽丝,石蒜虚拟器,石蒜模拟器,锦木千束,錦木千束,井之上泷奈,井ノ上たきな,神奇海螺试验场">
+    <link rel="stylesheet" href="document.css">
+    <link rel="apple-touch-icon" href="takina.png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body id="main">
+
+    <div class="single-box"></div>
+    <div class="ctrl-box">
+        <a class="set-voice" onclick="toggleVoiceMute()" data-locale="mute"></a>
+        <a class="trigger-magic-link" onclick="triggerMagic()" data-locale="magic"></a>
+        <a class="locale-switch" onclick="switchLocale()" data-locale="lang"></a>
+    </div>
+    <button onclick="cambiaPers()">Change character</button>
+    <footer>
+        <a href="https://github.com/itorr/sakana" target="_blank">GitHub</a>
+    </footer>
+    <div id="header">
+        <div id="nav">
+            <div class="menu" onclick="menuAnimation(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="menu2">
+                <div>
+                    <p><a href="/">Home</a></p>
+                </div>
+                <div>
+                    <p><a href="/classification/">Classification</a></p>
+                </div>
+                <div>
+                    <p><a href="/Op and Ed/">Op & Ed</a></p>
+                </div>
+                <div>
+                    <p><a href="/campo minato/">Campo minato</a></p>
+                </div>
+                <div>
+                    <p><a href="/BoingBoing/">BoingBoing</a></p>
+                </div>
+                <div>
+                    <p><a href="/Mambo_run/">Mambo Run</a></p>
+                </div>
+
+            </div>
+            <div class="searchBar">
+                <input type="text" name="" id="">
+                <button>Cerca</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let personaggi = [
+            'takina.png',
+            'chisato.png',
+            'Machikane_Tannhauser.png',
+            'arima.png'
+            
+        ];
+
+        let indice = 0;
+
+        function cambiaPers() {
+            let box = document.querySelector(".sakana-character");
+
+            if (box) {
+                box.style.setProperty('background-image', `url(/BoingBoing/immagini/${personaggi[indice]})`, 'important');
+                box.style.setProperty('background-size', `contain`);
+                box.style.setProperty('background-repeat', `no-repeat`);
+                indice++;
+                if (indice >= personaggi.length) {
+                    indice = 0;
+                }
+
+            } else {
+                console.error("Non ho trovato l'elemento .sakana-character. Assicurati che il widget sia caricato!");
+            }
+        }    </script>
+    <script src="sakana.min.js"></script>
+
+    <script src="document.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+#grid-opEd{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h3{
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+h3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.opEd{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: lightblue;
+}
+.opEd>div:nth-child(1){
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    min-width: 460px;
+    min-height: 315px;
+}
+.opEd>div:nth-child(1) p,.opEd h3{
+    padding-left: 20px;
+}
+.opEd>div:nth-child(1) img{
+    border-radius: 12px;
+    width: 190px;
+}
+.opEd>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+iframe{
+    border-radius: 12px;
+    background-color: black;
+}
+.inline{
+    display: grid;
+    grid-template-columns: repeat(2,145px);
+    width: 270px;        /* Larghezza fissa */
+    height: 315px;       /* Altezza fissa: fondamentale per lo scroll verticale */
+    overflow-y: auto;    /* Crea lo scroll solo se il contenuto supera l'altezza */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+#main>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#main>div:nth-child(1) h1{
+    margin: auto;
+}
