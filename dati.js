@@ -15,7 +15,7 @@ const animeDatabase = [
     { title: "Frieren - Oltre la fine del viaggio", img: "img/Frieren - Oltre la fine del viaggio.jpg", section: "principale" },
     { title: "Solo leveling", img: "img/Solo leveling.jpg", section: "principale" },
     { title: "My deer friend nokotan", img: "img/my deer friend nokotan.jpg", section: "principale" },
-    { title: "Nukitashi", img: "img/Nukitashi.jpg", section: "principale" },
+    { title: "Nukitashi", img: "https://cdn.myanimelist.net/images/anime/1587/149982.jpg", section: "principale" },
     { title: "Egumi legacy", img: "img/Egumi legacy.jpg", section: "principale" },
     { title: "Angels of Death", img: "img/Angels of Death.jpg", section: "principale" },
     { title: "The Promised Neverland", img: "img/The Promised Neverland.jpg", section: "principale" },
