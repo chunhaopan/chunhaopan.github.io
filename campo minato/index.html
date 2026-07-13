@@ -16,7 +16,27 @@
             border: 1px black;
         }
         #campoMinato{
-            padding: 50px;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        #button{
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+        }
+        #button p{
+            width: 300px;
+            height: 100px;
+            background-color: lightgray;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+        #button p:hover{
+            transition: all 0.3s;
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -56,6 +76,7 @@
             </div>
         </div>
     </div>
+    <div id="button"><p>Genera il Campo Minato</p></div>
     <div id="campoMinato"></div>
     <script src="script/script.js"></script>
     <script src="/script.js"></script>

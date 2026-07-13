@@ -165,7 +165,7 @@
         <p id="istruzioni">Premi la <strong>Barra Spaziatrice</strong> o la <strong>Freccia Su</strong> per saltare.</p>
 
         <div id="musicControls">
-            <label for="musicSelect"></label>
+            <label for="musicSelect">!!!!!!!!!!!!!!!!! Mambo !!!!!!!!!!!!!!!!!</label>
             <select id="musicSelect">
                 <option value="">Nessuna (Muto)</option>
                 <option value="Normal_no_more.mp4">Normal no more</option>
@@ -176,11 +176,10 @@
         </div>
     </div>
 
-    <audio id="jumpSound" src="" preload="auto"></audio>
+    <audio id="jumpSound" src="salto.mp3" preload="auto"></audio>
     <audio id="bgMusic" src="" loop></audio>
 
     <script>
-        let indice = 0
         const canvas = document.getElementById("gameCanvas");
         const ctx = canvas.getContext("2d");
         const dinoGifElement = document.getElementById("dinoGif");
@@ -194,8 +193,7 @@
         const musicSelect = document.getElementById("musicSelect");
 
         const nomeFileOstacolo = "tokai-teio.gif";
-        bgMusic.volume = 0.2;
-        jumpSound.volume = 0.8;
+
         let score = 0;
         let gameOver = false;
         let gameRunning = false;
@@ -250,21 +248,13 @@
 
             jump: function () {
                 if (this.grounded && gameRunning && !gameOver) {
-                this.dy = this.jumpPower;
-                this.grounded = false;
-            
-                if (jumpSound.paused) {
-                indice++;
-                if (indice > 7) {
-                    indice = 1;
+                    this.dy = this.jumpPower;
+                    this.grounded = false;
+
+                    jumpSound.currentTime = 0;
+                    jumpSound.play().catch(e => console.log("Audio non caricato"));
                 }
-                
-                jumpSound.src = `mambo${indice}.mp4`;
-                jumpSound.currentTime = 0;
-                jumpSound.play().catch(e => console.log("Audio non caricato"));
             }
-        }
-    }
         };
 
         let ostacoli = [];

@@ -1,4 +1,7 @@
-let row = +prompt("Righe")
+let button = document.querySelector("#button")
+    button.addEventListener("click",()=>{
+    button.style.display = "none"
+    let row = +prompt("Righe")
 let col = +prompt("Colonne")
 let mine = +prompt("Bombe")
 let campo = []
@@ -140,3 +143,4 @@ function controllaVittoria() {
         alert("BRAVO")
     }
 }
+})
