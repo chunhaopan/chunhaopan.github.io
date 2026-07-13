@@ -1,5 +1,5 @@
 *{
-    cursor: url(/img/ani/Normal.ani);
+    cursor: url(/img/ani/Normal.ani),auto;
 }
 html,
 body {
@@ -93,7 +93,6 @@ a:hover {
 #main {
     background-color: #CD9FA6;
     padding-top: 60px; /* Spazio per la nav fissa */
-    padding-bottom: 40px;
     min-height: 100vh;
 }
 
@@ -104,7 +103,7 @@ a:hover {
     color: #333;
 }
 
-#grid {
+.anime-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
