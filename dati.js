@@ -12,7 +12,7 @@ const animeDatabase = [
     { title: "Overlord", img: "img/overlord.jpg", section: "principale" },
     { title: "Jujutsu kaisen", img: "img/Jujutsu kaisen.jpg", section: "principale" },
     { title: "One punch man", img: "img/One punch man.jpg", section: "principale" },
-    { title: "Frieren - Oltre la fine del viaggio", img: "img/Frieren - Oltre la fine del viaggio.jpg", section: "principale" },
+    { title: "Frieren", img: "img/Frieren - Oltre la fine del viaggio.jpg", section: "principale" },
     { title: "Solo leveling", img: "img/Solo leveling.jpg", section: "principale" },
     { title: "My deer friend nokotan", img: "img/my deer friend nokotan.jpg", section: "principale" },
     { title: "Nukitashi", img: "https://cdn.myanimelist.net/images/anime/1587/149982.jpg", section: "principale" },
@@ -72,6 +72,10 @@ const animeDatabase = [
     { title: "The Klutzy Class Monitor and the Girl with the Short Skirt", img: "https://cdn.myanimelist.net/images/anime/1484/155726.jpg", section: "apr26-set26" },
     { title: "The Dangers in My Heart", img: "https://cdn.myanimelist.net/images/anime/1545/133887.jpg", section: "apr26-set26" },
     { title: "Sakamoto desu ga?", img: "https://cdn.myanimelist.net/images/anime/4/79468.jpg", section: "apr26-set26" },
+    { title: "Weathering with You", img: "https://lain.bgm.tv/r/400/pic/cover/l/00/e8/269235_Dg6gZ.jpg", section: "apr26-set26" },
+    { title: "The Garden of Words", img: "https://cdn.myanimelist.net/images/anime/1597/112995.jpg", section: "apr26-set26" },
+    { title: "Nichijou", img: "https://myanimelist.net/images/anime/3/75617.jpg", section: "apr26-set26" },
+    { title: "Makeine: Too Many Losing Heroines!", img: "https://myanimelist.net/images/anime/1332/143513.jpg", section: "apr26-set26" },
 
     // --- ANIME IN LISTA ---
     { title: "Made in abyss", img: "img/made in abyss.jpg", section: "in-lista" },
@@ -82,14 +86,11 @@ const animeDatabase = [
     { title: "Attack on titan", img: "img/attack on titan.jpg", section: "in-lista" },
     { title: "Wataten! an Angel Flew Down to Me", img: "https://myanimelist.net/images/anime/1778/100470.jpg", section: "in-lista" },
     { title: "Suzume", img: "https://myanimelist.net/images/anime/1598/128450.jpg", section: "in-lista" },
-    { title: "Weathering with You", img: "https://myanimelist.net/images/anime/1880/101146.jpg", section: "in-lista" },
     { title: "Cosmic Princess Kaguya!", img: "https://myanimelist.net/images/anime/1758/153953.jpg", section: "in-lista" },
     { title: "Summer Time Rendering", img: "https://myanimelist.net/images/anime/1120/120796.jpg", section: "in-lista" },
     { title: "Date A Live", img: "https://myanimelist.net/images/anime/13/44844.jpg", section: "in-lista" },
-    { title: "Makeine: Too Many Losing Heroines!", img: "https://myanimelist.net/images/anime/1332/143513.jpg", section: "apr26-set26" },
     { title: "KonoSuba: God's Blessing on This Wonderful World!", img: "https://myanimelist.net/images/anime/1895/142748.jpg", section: "in-lista" },
     { title: "Air", img: "https://myanimelist.net/images/anime/8/73522.jpg", section: "in-lista" },
     { title: "Charlotte", img: "https://myanimelist.net/images/anime/1826/147276.jpg", section: "in-lista" },
-    { title: "Nichijou", img: "https://myanimelist.net/images/anime/3/75617.jpg", section: "apr26-set26" },
     { title: "Grand Blue", img: "https://myanimelist.net/images/anime/1302/94882.jpg", section: "in-lista" }
 ];
