@@ -76,6 +76,7 @@ const animeDatabase = [
     { title: "The Garden of Words", img: "https://cdn.myanimelist.net/images/anime/1597/112995.jpg", section: "apr26-set26" },
     { title: "Nichijou", img: "https://myanimelist.net/images/anime/3/75617.jpg", section: "apr26-set26" },
     { title: "Makeine: Too Many Losing Heroines!", img: "https://myanimelist.net/images/anime/1332/143513.jpg", section: "apr26-set26" },
+    { title: "Draw This, Then Die!", img: "https://cdn.myanimelist.net/images/anime/1649/154997.jpg", section: "apr26-set26" },
 
     // --- ANIME IN LISTA ---
     { title: "Made in abyss", img: "img/made in abyss.jpg", section: "in-lista" },
