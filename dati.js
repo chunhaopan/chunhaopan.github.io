@@ -77,6 +77,10 @@ const animeDatabase = [
     { title: "Nichijou", img: "https://myanimelist.net/images/anime/3/75617.jpg", section: "apr26-set26" },
     { title: "Makeine: Too Many Losing Heroines!", img: "https://myanimelist.net/images/anime/1332/143513.jpg", section: "apr26-set26" },
     { title: "Draw This, Then Die!", img: "https://cdn.myanimelist.net/images/anime/1649/154997.jpg", section: "apr26-set26" },
+    { title: "My Dress-Up Darling", img: "https://cdn.myanimelist.net/images/anime/1179/119897.jpg", section: "apr26-set26" },
+    { title: "Suzume", img: "https://myanimelist.net/images/anime/1598/128450.jpg", section: "apr26-set26" },
+    { title: "Cosmic Princess Kaguya!", img: "https://myanimelist.net/images/anime/1758/153953.jpg", section: "apr26-set26" },
+    { title: "Summer Time Rendering", img: "https://myanimelist.net/images/anime/1120/120796.jpg", section: "apr26-set26" },
 
     // --- ANIME IN LISTA ---
     { title: "Made in abyss", img: "img/made in abyss.jpg", section: "in-lista" },
@@ -86,9 +90,6 @@ const animeDatabase = [
     { title: "TONIKAWA: Over The Moon For You", img: "img/TONIKAWA Over The Moon For You.jpeg", section: "in-lista" },
     { title: "Attack on titan", img: "img/attack on titan.jpg", section: "in-lista" },
     { title: "Wataten! an Angel Flew Down to Me", img: "https://myanimelist.net/images/anime/1778/100470.jpg", section: "in-lista" },
-    { title: "Suzume", img: "https://myanimelist.net/images/anime/1598/128450.jpg", section: "in-lista" },
-    { title: "Cosmic Princess Kaguya!", img: "https://myanimelist.net/images/anime/1758/153953.jpg", section: "in-lista" },
-    { title: "Summer Time Rendering", img: "https://myanimelist.net/images/anime/1120/120796.jpg", section: "in-lista" },
     { title: "Date A Live", img: "https://myanimelist.net/images/anime/13/44844.jpg", section: "in-lista" },
     { title: "KonoSuba: God's Blessing on This Wonderful World!", img: "https://myanimelist.net/images/anime/1895/142748.jpg", section: "in-lista" },
     { title: "Air", img: "https://myanimelist.net/images/anime/8/73522.jpg", section: "in-lista" },
